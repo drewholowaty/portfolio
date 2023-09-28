@@ -30,7 +30,7 @@ Install the following software on your machine.
 ### 4. Use App
 
 1. Navigate to localhost:5173/auth 
-2. Get onetime code by running in terminal: docker logs `vue_expressjs_login_sequence-server-1`
+2. Get onetime code by running in terminal: `docker logs vue_expressjs_login_sequence-server-1`
 
 ## Solution Diagrams and Information 
 
