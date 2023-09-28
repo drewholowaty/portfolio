@@ -1,0 +1,10 @@
+- 'sample test':
+    input:
+      req_type: GET
+      url: https://www.google.com 
+      body:
+    expected_output:
+      expected_http_code: "#{int(input('expected http code: '))}"
+      expected_body:
+        ^[\s\S]*$
+
